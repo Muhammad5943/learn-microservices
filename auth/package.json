@@ -4,10 +4,10 @@
   "description": "Authentication Service",
   "main": "index.ts",
   "scripts": {
-    "lint": "",
+    "lint": "eslint src/**/*.ts || true",
     "prettier": "",
     "prettier:fix": "",
-    "start:dev": "",
+    "start:dev": "nodemon src/index.ts",
     "start": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
